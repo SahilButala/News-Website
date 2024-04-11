@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+</head>
+<body>
+    <!-- header section start -->
+
+    <header class="header container">
+
+        <div class="nav-bar ">
+            <div class="logo">
+                <img src="https://play-lh.googleusercontent.com/QvXiFN9mhFegApQ83VvVAheG6G-blzEDbJhaKgsEzLNoEb0G-v9K6aE77fn-w4hN3Q" height="120px">
+            </div>
+            
+            <ul class="nav-links flex" id="navbar">
+                <li class="nav-links-hover"  id="cricket" onclick="onClickpage('cricket')">Cricket</li>
+                <li class="nav-links-hover" id="health" onclick="onClickpage('health')">Health</li>
+                <li class="nav-links-hover" id="politics" onclick="onClickpage('politics')">Politics</li>
+                <li class="nav-links-hover" id="Technology" onclick="onClickpage('Technology')">Technology</li>
+
+            </ul>
+
+            <div class="right-section flex">
+                <div class="input-text">
+                    <input type="search" id="input-txt" placeholder="search anything..">
+                </div>
+                <button class="btn-1" id="search">search</button>
+            </div>
+            <div class="icon">
+                <i class="ri-menu-line" id="bar"></i>
+            </div>
+        </div>
+
+
+    </header>
+
+
+    <!-- box section start -->
+
+    <div class="box-container container flex " id="box-container">
+               
+
+    </div>
+
+<template id="card-template">
+    <div class="box">
+        <div class="box-image">
+            <img id="box-img" src="https://via.placeholder.com/400x200" alt="">
+        </div>
+        <div class="box-content">
+            <h3 class="title" id="title">titile of box</h3>
+            <h5 class="date-text" id="date-text">date of box</h5>
+            <p class="description" id="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, consequuntur eligendi aspernatur quas magni rerum, necessitatibus explicabo sapiente cum temporibus neque sit? Nostrum, reprehenderit? Corrupti perferendis ea nostrum rem fuga neque sapiente quasi necessitatibus!</p>
+        </div>
+       </div>
+</template>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
